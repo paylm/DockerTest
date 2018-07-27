@@ -2,9 +2,9 @@ FROM centos
 
 MAINTAINER "penglong"
 
-COPY ./a.text /test/
+#COPY ./a.text /test/
 
-COPY ./test.sh /test/
+#COPY ./test.sh /test/
 
 RUN yum install -y openssl openssl-devel  gcc
 
