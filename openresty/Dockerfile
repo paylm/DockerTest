@@ -19,3 +19,4 @@ RUN cd /openresty-1.13.6.1 && ./configure --prefix=/usr/local/openresty \
 
 EXPOSE 22 80
 
+CMD ["/usr/local/openresty/nginx/sbin/nginx","-g","daemon off;"]
