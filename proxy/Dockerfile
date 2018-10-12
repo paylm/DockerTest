@@ -1,5 +1,7 @@
 FROM alpine
 
+MAINTAINER penglong_feng "feng237533@126.com"
+
 ADD ./proxy /bin/
 ADD ./README /
 
